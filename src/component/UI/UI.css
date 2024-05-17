@@ -1,0 +1,43 @@
+  .card{
+    width : 440px;
+    height : 400px;
+    background-color: gainsboro;
+    margin: 20px;
+    border: 1pn solid rgb(200,200,200);
+    border-radius: 25px;
+}
+
+img{
+    width : 130px;
+    height : 130px;
+    background-color: azure;
+    margin : 30px;
+    border-radius: 45%;
+    border : 3px solid seagreen;
+
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+}
+
+.top{
+    align-items: center;
+    flex-direction: row;
+}
+
+.username p{
+    flex-direction: row;
+    
+}
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom{
+    margin: 20px;
+    flex-direction: row;
+}
